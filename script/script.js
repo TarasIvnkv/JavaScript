@@ -1,0 +1,10 @@
+firstNum = parseFloat(prompt(`Enter the first fractional number`));
+secondNum = parseFloat(prompt(`Enter the first fractional number`));
+firstNum = parseFloat(firstNum.toFixed(2));
+secondNum = parseFloat(secondNum.toFixed(2));
+console.log(`${firstNum} and ${secondNum}`);
+randomNum =  Math.random() * (firstNum - secondNum) + secondNum;
+randomNum = parseFloat(randomNum.toFixed(2));
+alert(`Random number is: ${randomNum}🥳`);
+thirdNum = parseFloat(prompt(`Enter the third fractional number`));
+thirdNum = parseFloat(thirdNum.toFixed(2));
