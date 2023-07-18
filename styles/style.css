@@ -41,3 +41,31 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+table{
+	text-align: center;
+}
+
+th{
+	font-size: 24px;
+	border: 2px solid black;
+	padding: 6px;
+	font-weight: 400;
+}
+
+tr:first-child th{
+	font-weight: 600;
+}
+
+td{
+	font-size: 14px;
+	border: 2px solid black;
+}
+
+tr:nth-child(2n){
+	background: rgb(226, 226, 211);
+}
+
+tr+tr th{
+	text-align: left;
+}
