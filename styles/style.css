@@ -53,7 +53,7 @@ th{
 	font-weight: 400;
 }
 
-tr:first-child th{
+thead tr th{
 	font-weight: 600;
 }
 
@@ -66,6 +66,6 @@ tr:nth-child(2n){
 	background: rgb(226, 226, 211);
 }
 
-tr+tr th{
+tr th{
 	text-align: left;
 }

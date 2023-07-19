@@ -18,30 +18,34 @@ multiplication = (randomNum * thirdNum).toFixed(2);
 division = (randomNum / thirdNum).toFixed(2);
 document.write(`
     <table>
-        <tr>
-            <th>Operation</th>
-            <th>Expression</th>
-            <th>Value</th>
-        </tr>
-        <tr>
-            <th>Sum</th>
-            <td>${formulaSum}</td>
-            <td>${sum}</td>
-        </tr>
-        <tr>
-            <th>Subtraction</th>
-            <td>${formulaSubtraction}</td>
-            <td>${subtraction}</td>
-        </tr>
-        <tr>
-            <th>Multiplication</th>
-            <td>${formulaMultiplication}</td>
-            <td>${multiplication}</td>
-        </tr>
-        <tr>
-            <th>Division</th>
-            <td>${formulaDivision}</td>
-            <td>${division}</td>
-        </tr>
+        <thead>
+            <tr>
+                <th>Operation</th>
+                <th>Expression</th>
+                <th>Value</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>Sum</th>
+                <td>${formulaSum}</td>
+                <td>${sum}</td>
+            </tr>
+            <tr>
+                <th>Subtraction</th>
+                <td>${formulaSubtraction}</td>
+                <td>${subtraction}</td>
+            </tr>
+            <tr>
+                <th>Multiplication</th>
+                <td>${formulaMultiplication}</td>
+                <td>${multiplication}</td>
+            </tr>
+            <tr>
+                <th>Division</th>
+                <td>${formulaDivision}</td>
+                <td>${division}</td>
+            </tr>
+        </tbody>
     </table>
 `);
